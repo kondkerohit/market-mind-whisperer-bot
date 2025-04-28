@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -98,4 +99,27 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.finance-gradient {
+  background: linear-gradient(135deg, #1E3A8A 0%, #0F766E 100%);
+}
+
+.chat-bubble {
+  max-width: 80%;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+}
+
+.user-bubble {
+  background-color: #E0F2FE;
+  border-top-right-radius: 0;
+  margin-left: auto;
+}
+
+.bot-bubble {
+  background-color: #F1F5F9;
+  border-top-left-radius: 0;
+  margin-right: auto;
 }
